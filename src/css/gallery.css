@@ -1,0 +1,43 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  width: 1128px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  overflow: hidden;
+  width: calc((1128px - 48px) / 3);
+}
+
+.gallery-link {
+  display: block;
+}
+
+.gallery-image {
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.1);
+}
+
+body .sl-overlay {
+  background: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper .sl-navigation button.sl-next {
+  color: #ffffff;
+}
+
+.sl-wrapper .sl-navigation button.sl-prev {
+  color: #ffffff;
+}
+
+.sl-wrapper button.sl-close {
+  color: #ffffff;
+}
+.simple-lightbox div.sl-counter {
+  color: #ffffff;
+}
